@@ -1,0 +1,104 @@
+body{
+  overflow: hidden;
+}
+
+#con{
+  height: 100vh;
+
+}
+
+#sidebar {
+  user-select: none;
+  padding-top: 70px;
+  border-right: 1px solid;
+
+
+}
+
+#sidebar div{
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 15px;
+  &.active {
+    background-color: white;
+  }
+  .icon{
+    margin-right: 10px;
+  }
+}
+#tasks{
+  padding-top: 70px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: #CCFFCC;
+  
+  
+
+  .addTask{
+    cursor: pointer;
+    .plus{
+      margin-right: 10px;
+      font-size: x-large;
+      color: red;
+      
+    }
+    .addtask{
+      font-size: 20px;
+      color: black;
+      margin-left: 15px;
+  
+    }
+  }
+  .add-task-dilog{
+    margin-top: 10px;
+    input{
+      width: 100%;
+      border: 1px solid;
+      border-radius: 2px;
+      height: 35px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .add-tasks-action-container{
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      #add-task{
+        font-size: 17px;
+        padding: 6px 12px 6px 12px;
+        &:disabled{
+          background-color: white;
+        }
+        &:active{
+         transform: scale(0.9);
+        }
+
+      }
+      #cancel-task{
+        all: unset;
+        margin-left: 20px;
+        color: black;
+        cursor: pointer;
+        font-size: 17px;
+        margin: 0px , 5px;
+       
+      }
+
+    }
+  }
+  
+}
+
+.tasks-item-container{
+  margin-top: 30px;
+  padding: 0 20px;
+  .tasks-item{
+    display: flex;
+    justify-content: space-between;
+    &:not(:last-child){
+      border-bottom: 1px solid;
+    }
+  }
+}
+
+
