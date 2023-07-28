@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
-//import {DayPicker } from 'react-day-picker';
 
-//import 'react-day-picker/dist/style.css';
+
+
 import dateFnsFormat from 'date-fns/format'
-//import { DatePicker } from 'antd';
+
 import Datepicker from 'react-datepicker';
-import "react-datepicker/dist/react-datepicker.css";
-//import dateFnsFormate from 'date-fns/formate'
+
 import isAfter from 'date-fns/isAfter';
 import isBefore from 'date-fns/isBefore';
 import addDays from 'date-fns/addDays';

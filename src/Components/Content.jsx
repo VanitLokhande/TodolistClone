@@ -9,7 +9,7 @@ const Content = () => {
    <>
    <div className='row bg-primary' id='con'>
      <Sidebar selectedtab={selectedtab} setselectedtab={setselectedtab}/>
-     <Tasks selectedtab={selectedtab} />
+     <Tasks selectedtab={selectedtab}/>
         
    </div>
    
