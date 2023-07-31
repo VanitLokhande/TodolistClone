@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TodolistClone/static/css/main.50680cab.css",
+    "main.js": "/TodolistClone/static/js/main.adc77a40.js",
+    "index.html": "/TodolistClone/index.html",
+    "main.50680cab.css.map": "/TodolistClone/static/css/main.50680cab.css.map",
+    "main.adc77a40.js.map": "/TodolistClone/static/js/main.adc77a40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50680cab.css",
+    "static/js/main.adc77a40.js"
+  ]
+}
